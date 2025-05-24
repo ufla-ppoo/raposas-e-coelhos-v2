@@ -1,4 +1,4 @@
-# Raposas e Coelhos v1
+# Raposas e Coelhos v2
 
 Este projeto faz parte do material do capítulo 12 do livro
 
@@ -25,4 +25,4 @@ Como começar:
   - simular vários passos - e forneça um número (por exemplo, 10) para simular essa quantidade de passos.  
   - simulação longa - para uma simulação de 4000 passos. 
 
-Os slides da aula que usam este projeto se encontram em: https://ufla-ipoo.github.io/ipoo-slides/cap10-1.html
+Os slides da aula que usa este projeto se encontram em: https://ufla-ipoo.github.io/ipoo-slides/cap10-1.html
