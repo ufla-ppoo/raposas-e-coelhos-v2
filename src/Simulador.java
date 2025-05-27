@@ -1,7 +1,6 @@
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.awt.Color;
 
 /**
  * Um simulador simples de predador-presa, baseado em um campo retangular contendo 
@@ -55,8 +54,7 @@ public class Simulador
 
         // Cria uma visão do estado de cada localização no campo.
         visao = new VisaoSimulador(comprimento, largura, this);
-        visao.definirCor(Coelho.class, Color.ORANGE);
-        visao.definirCor(Raposa.class, Color.BLUE);
+        GeradorDePopulacoes.definirCores(visao);
         
         // Configura um ponto de partida válido.
         reiniciar();

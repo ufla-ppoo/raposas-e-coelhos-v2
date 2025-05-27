@@ -1,3 +1,4 @@
+import java.awt.Color;
 import java.util.List;
 import java.util.Random;
 
@@ -5,7 +6,16 @@ public class GeradorDePopulacoes {
     // A probabilidade de uma raposa ser criada em qualquer posição da grade.
     private static final double PROBABILIDADE_CRIACAO_RAPOSA = 0.02;
     // A probabilidade de um coelho ser criado em qualquer posição.
-    private static final double PROBABILIDADE_CRIACAO_COELHO = 0.08;    
+    private static final double PROBABILIDADE_CRIACAO_COELHO = 0.08;  
+
+    /**
+     * Define as cores de cada espécie de animal nas visões do simulador
+     * @param visao
+     */
+    public static void definirCores(VisaoSimulador visao) {
+        visao.definirCor(Coelho.class, Color.ORANGE);
+        visao.definirCor(Raposa.class, Color.BLUE);
+    }  
 
     /**
      * Povoa aleatoriamente o campo com animais.
